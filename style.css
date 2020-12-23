@@ -1,15 +1,20 @@
 h1{
-    color: orange;
+    color: red;
     text-align: center;
     font-size: 100px;
 
 }
-
-p{
+#intro{
     color: black;
     text-align: center;
     font-size: 50px;
 }
+p{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
 form{
     text-align: center;
 }
+
