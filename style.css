@@ -1,18 +1,21 @@
 h1{
-    color: red;
+    color:orange;
     text-align: center;
     font-size: 100px;
+    background-color: rgb(68, 89, 134);
 
+}
+
+p{
+    color:black;
+    text-align: center;
+    font-size: 25px;
 }
 #intro{
     color: black;
     text-align: center;
     font-size: 50px;
-}
-p{
-    color: black;
-    text-align: center;
-    font-size: 25px;
+    background-color: aliceblue;
 }
 form{
     text-align: center;
