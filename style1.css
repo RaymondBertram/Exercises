@@ -61,7 +61,7 @@ ul li.active a{
 
 .title{
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -79,7 +79,19 @@ ul li.active a{
 }
 
 .paragraph p{
-    color: white;
+    color: rgb(231, 227, 227);
+    font-size: 30px;
+}
+
+.quote {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.quote p{
+    color: rgb(247, 77, 77);
     font-size: 30px;
 }
 
