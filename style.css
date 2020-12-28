@@ -76,15 +76,18 @@ ul li.active a{
     top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);  
+    
 }
 
 .btn{
     border: 1px solid #fff;
+    border-radius: 5px;
     padding: 10px 30px;
-    color: white;
+    color: #000;
     text-decoration: none;
     transition: 0.6s ease;
     font-size: 50px;
+    background-color: rgb(247, 220, 170);
 
 }
 
