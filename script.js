@@ -19,3 +19,12 @@ The next feature should calculate the age and execute the full name after we typ
 Maybe a function?
 */
 
+var firstName = new 
+var lastName = new
+
+const calculateAge = function (birthYear) {
+    var currentYear = new Date().getFullYear();
+
+    return currentYear - birthYear
+}
+document.write(`${firstName} ${lastName} is `)
