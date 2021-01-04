@@ -17,9 +17,9 @@ Maybe an if-statement with special condtions ?
 The next feature should calculate the age and execute the full name after we typed in our values.
 
 Maybe a function?
-*/
 
-var firstName = new 
+
+var firstName = new
 var lastName = new
 
 const calculateAge = function (birthYear) {
@@ -28,3 +28,4 @@ const calculateAge = function (birthYear) {
     return currentYear - birthYear
 }
 document.write(`${firstName} ${lastName} is `)
+*/
