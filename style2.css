@@ -111,10 +111,10 @@ ul li.active a{
 
 .name{
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); 
-    font-size: 40px;
+    font-size: 30px;
 
 
 }
@@ -133,7 +133,7 @@ ul li.active a{
     
 .date {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-45%,-50%); 
     font-size: 40px;
@@ -154,7 +154,7 @@ ul li.active a{
 
 .button1{
     position: absolute;
-    top: 70%;
+    top: 80%;
     right: 50%;
     font-family: comic sans-serif;
     
