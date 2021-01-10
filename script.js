@@ -21,29 +21,17 @@ const calculateAge = function (birthYear) {
 document.write(`${firstName} ${lastName} is `)
 */
 
-function calculate_Age() {
-
-    var birthDate = new Date(document.getElementById("birth_date").nodeValue);
-    var birthDateDay = birth_date.getDate();
-    var birthDateMonth = birth_date.getMonth();
-    var birthDateYear = birth_date.getFullYear();
-
-    var todayDate = new Date();
-    var todayDay = todayDate.getDate();
-    var todayMonth = todayDate.getMonth();
-    var todayYear = todayDate.getFullYear();
-
-    var calculate_Age = 0;
-
-    if (todayMonth > birthDateMonth) calculate_Age = todayYear - birthDateYear;
-    else if (todayMonth == birthDateMonth) {
-        if (todayDay >= birthDateDay) calculate_Age = todayYear - birthDateYear;
-        else calculate_Age = todayYear - birthDateYear - 1;
-
-    }
-    else calculate_Age = todayYear - birthDateYear - 1;
-
-
-    var output_value = birth_date;
-    document.getElementById("calculated_age").innerHTML = output_value;
-} 
+const button = document.getElementById('button');
+​
+​
+button.addEventListener('click', function (){
+    let date, day, month, year, birthday, age, name;
+    name = document.getElementById('nametag').value;
+    year = parseInt(document.getElementById('year').value); //umwandeln in Zahl
+    month = parseInt(document.getElementById('month').value -1); //umwandeln in Zahl, -1 da Monate bei 0 anfangen zu zählen
+    day = parseInt(document.getElementById('day').value); //umwandeln in Zahl
+    date = new Date(); //aktueles Datum
+    birthday = new Date(year, month, day); //umwandeln der eingabe in Datumsformat
+    age = Math.floor((date - birthday)/31536000000); //berechnung des alters und umrechnung in jahre
+ alert(`Hello ${name}, you are ${age} years old`);
+});
