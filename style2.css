@@ -134,7 +134,7 @@ ul li.active a{
 .date {
     position: absolute;
     top: 65%;
-    left: 50%;
+    left: 45%;
     transform: translate(-45%,-50%); 
     font-size: 40px;
 }
@@ -157,12 +157,20 @@ ul li.active a{
     top: 80%;
     right: 50%;
     font-family: comic sans-serif;
+    font-size: 50px;
     
 }
 
 .button1 input{
     color: #000;
-    font-size: 50px;
+    font-size: 60px;
     font-family: comic sans-serif
 }
 
+.results{
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
